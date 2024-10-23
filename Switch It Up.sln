@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha", "Switcha\Switcha.csproj", "{06C9BE4F-9F0A-410E-B32F-1673D8B0CBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha.UI", "Switcha.UI\Switcha.UI.csproj", "{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha.Core", "Switcha.Core\Switcha.Core.csproj", "{9DC0C7B7-6E1F-4D16-BF95-A4DBF8B49E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha.Data", "Switcha.Data\Switcha.Data.csproj", "{F179B358-BB27-4D4D-86D6-04400AAE775E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha.Logic", "Switcha.Logic\Switcha.Logic.csproj", "{BA72D61B-8CF3-4C08-BDB6-78A0E7514B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switcha.Processor", "Switcha.Processor\Switcha.Processor.csproj", "{FC18C23E-DFF6-48D8-88B7-BD97A0866813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C9BE4F-9F0A-410E-B32F-1673D8B0CBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C9BE4F-9F0A-410E-B32F-1673D8B0CBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C9BE4F-9F0A-410E-B32F-1673D8B0CBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C9BE4F-9F0A-410E-B32F-1673D8B0CBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC0C7B7-6E1F-4D16-BF95-A4DBF8B49E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC0C7B7-6E1F-4D16-BF95-A4DBF8B49E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC0C7B7-6E1F-4D16-BF95-A4DBF8B49E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC0C7B7-6E1F-4D16-BF95-A4DBF8B49E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F179B358-BB27-4D4D-86D6-04400AAE775E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F179B358-BB27-4D4D-86D6-04400AAE775E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F179B358-BB27-4D4D-86D6-04400AAE775E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F179B358-BB27-4D4D-86D6-04400AAE775E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA72D61B-8CF3-4C08-BDB6-78A0E7514B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA72D61B-8CF3-4C08-BDB6-78A0E7514B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA72D61B-8CF3-4C08-BDB6-78A0E7514B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA72D61B-8CF3-4C08-BDB6-78A0E7514B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC18C23E-DFF6-48D8-88B7-BD97A0866813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC18C23E-DFF6-48D8-88B7-BD97A0866813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC18C23E-DFF6-48D8-88B7-BD97A0866813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC18C23E-DFF6-48D8-88B7-BD97A0866813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C02BFDA2-8F9D-41C3-A59E-128D1D57F69F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Switcha.UI</RootNamespace>
+    <AssemblyName>Switcha.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AppZone UI Framework Docmentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\AppZone\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\AppZone UI Framework Docmentation.dll</HintPath>
+    </Reference>
+    <Reference Include="AppZoneUI.Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AppZoneUI.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CuttingEdge.ServiceLocation">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\CuttingEdge.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Iesi.Collections.4.0.0.4000\lib\net40\Iesi.Collections.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=5.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\packages\NHibernate.5.0.0\lib\net461\NHibernate.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.2.1.2\lib\net45\Remotion.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Remotion.Linq.EagerFetching, Version=2.1.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Remotion.Linq.EagerFetching.2.1.0\lib\net45\Remotion.Linq.EagerFetching.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transformer.NET">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\Transformer.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\..\..\..\..\Downloads\AppZone UI Framework Docmentation\AppZone UI Framework Docmentation\bin\WebActivatorEx.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChannelsUI\AddChannels.cs" />
+    <Compile Include="ChannelsUI\ChannelsDetail.cs" />
+    <Compile Include="ChannelsUI\UpdateChannels.cs" />
+    <Compile Include="ChannelsUI\ViewChannels.cs" />
+    <Compile Include="ComboUI\AddCombo.cs" />
+    <Compile Include="ComboUI\ComboDetail.cs" />
+    <Compile Include="ComboUI\UpdateCombo.cs" />
+    <Compile Include="ComboUI\ViewCombo.cs" />
+    <Compile Include="FeeUI\AddFee.cs" />
+    <Compile Include="FeeUI\FeeDetail.cs" />
+    <Compile Include="FeeUI\UpdateFee.cs" />
+    <Compile Include="FeeUI\ViewFee.cs" />
+    <Compile Include="Model\ChannelsUIModel.cs" />
+    <Compile Include="Model\ComboUIModel.cs" />
+    <Compile Include="Model\FeeUIModel.cs" />
+    <Compile Include="Model\OptionAndValue.cs" />
+    <Compile Include="Model\RouteUIModel.cs" />
+    <Compile Include="Model\SchemeUIModel.cs" />
+    <Compile Include="Model\SinkNodeUIModel.cs" />
+    <Compile Include="Model\SourceNodeUIModel.cs" />
+    <Compile Include="Model\TransactionLogsUIModel.cs" />
+    <Compile Include="Model\TransactionTypeUIModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteUI\AddRoute.cs" />
+    <Compile Include="RouteUI\RouteDetail.cs" />
+    <Compile Include="RouteUI\UpdateRoute.cs" />
+    <Compile Include="RouteUI\ViewRoute.cs" />
+    <Compile Include="SchemeUI\AddScheme.cs" />
+    <Compile Include="SchemeUI\SchemeDetail.cs" />
+    <Compile Include="SchemeUI\UpdateScheme.cs" />
+    <Compile Include="SchemeUI\ViewScheme.cs" />
+    <Compile Include="SinkNodeUI\AddSinkNode.cs" />
+    <Compile Include="SinkNodeUI\SinkNodeDetail.cs" />
+    <Compile Include="SinkNodeUI\UpdateSinkNode.cs" />
+    <Compile Include="SinkNodeUI\ViewSinkNode.cs" />
+    <Compile Include="SourceNodeUI\AddSourceNode.cs" />
+    <Compile Include="SourceNodeUI\SourceNodeDetail.cs" />
+    <Compile Include="SourceNodeUI\UpdateSourceNode.cs" />
+    <Compile Include="SourceNodeUI\ViewSourceNode.cs" />
+    <Compile Include="TransactionLogsUI\TransactionLogDetail.cs" />
+    <Compile Include="TransactionLogsUI\ViewTransactionLog.cs" />
+    <Compile Include="TransactionTypeUI\AddTransactionType.cs" />
+    <Compile Include="TransactionTypeUI\TransactionTypeDetail.cs" />
+    <Compile Include="TransactionTypeUI\UpdateTransactionType.cs" />
+    <Compile Include="TransactionTypeUI\ViewTransactionType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Switcha.Core\Switcha.Core.csproj">
+      <Project>{9dc0c7b7-6e1f-4d16-bf95-a4dbf8b49e17}</Project>
+      <Name>Switcha.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Switcha.Logic\Switcha.Logic.csproj">
+      <Project>{ba72d61b-8cf3-4c08-bdb6-78a0e7514b1c}</Project>
+      <Name>Switcha.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
